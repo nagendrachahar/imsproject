@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+	    <!-- header of the page -->
+		<header class="container-fluid row">
+		    <!-- logo of the page -->
+		    <div class="col-sm-4">
+		    	<p class="logo">united deals</p>
+		    </div>
+			<!-- seach bar -->
+			<div class="col-sm-4">
+				<form class="navbar-form search-bar-form">
+					<div class="input-group">
+						<input type="text" class="form-control search-bar">
+						<div class="input-group-btn">
+							<button class="btn" type="submit">
+							search
+							</button>
+						</div>
+					</div>
+			    </form>
+			</div>
+			<!-- login and alert -->
+			<div class="col-sm-4 login-con">
+				<a href="#" class="login"> </a>
+				<a href="#" class="alert"> </a>
+			</div>
+		</header>
+		<div class="container-fluid inventory-con">
+            <!-- inventory dopdown -->
+			<div class="dropdown">
+
+    			<button class="btn dropdown-toggle inventory-btn" type="button" data-toggle="dropdown">Inventory
+    				<span class="glyphicon glyphicon-menu-down"></span>
+    			</button>
+
+            </div>
+
+		</div>
+		<div class="row container-fluid main-middle-section">
+		    <!--left nav list container-->
+			<div class="col-sm-3 left-con">
+				<div class="list-group left-con-list">
+				    <a class="dashbord" href="#">Dashbord</a>
+				    <a class="contact" href="#">Contacts</a>
+				    <a class="products" href="#">Products</a>
+				    <a class="sales-order" href="#">Sales Orders</a>
+				    <a class="packaegs" href="#">Packaegs</a>
+				    <a class="invoices" href="#">Invoices</a>
+			    </div>
+				
+			</div>
+			<!-- right section container-->
+			<div class="col-sm-9 row right-con">
+
+			    <!-- upper graph image container-->
+				<div class="col-sm-12 graph">
+					<img src="images/graphimg.jpg" style="width: 100%; height: auto;">
+					
+				</div> 
+				<!-- inventory summery and sales Activity container-->
+				<div class="row col-sm-12 bg-info inven-summry-con">
+					<!--inventory summery section-->
+					<div class="col-sm-4 text-center inven-summry-section">
+						<p class="inv-summ-btn">Inventory Summery</p>
+						<ul class="list-group inv-summ-detail">
+						    <li class="list-group-item text-left">Quantity in Hand<span class="badge text-right">12</span></li>
+						    <li class="list-group-item text-left">Quantity to be Received<span class="badge text-right">55</span></li>  
+						</ul>
+
+					</div>
+					<!-- sales activity section -->
+					<div class="col-sm-8 row">
+						<div class="col-sm-4">
+							<p class="inv-sales-btn">Sales Activity</p>
+							<div class="packed">
+								<p>Packed</p>
+								<p>0</p>
+								<p>QNTY</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="shipped">
+								<p>Shiped</p>
+							    <p>0</p>
+							    <p>QNTY</p>
+							</div>
+							
+						</div>
+						<div class="col-sm-4">
+						    <div class="delivered">
+						    	<p>Delivered</p>
+							    <p>0</p>
+							    <p>QNTY</p>
+						    </div>
+							
+						</div>
+
+
+					</div>
+					
+				</div>
+				<!-- product detail container -->
+				<div class="col-sm-12 row porduct-detail-con">
+				    <!-- first container in row-->
+					<div class="col-sm-5">
+						<div class="porduct-detail-section">
+							<p class="inv-summ-detail-btn">PRODUCT DETAIL</p>
+							<div class="porduct-detail-section-div">
+								<p>ALL Product Groups <span>45</span></p>
+								<p>ALL Product <span>45</span></p>
+							</div>
+						</div>
+					</div>
+					<!-- second container-->
+					<!-- top saleing product container-->
+					<div class="col-sm-7">
+						<div class="porduct-detail-section">
+							<p class="inv-summ-detail-btn">TOP SELLING PRODUCTS</p>
+							<p class="inv-summ-date-btn">5/03/2017</p>
+							<p class="to">to</p>
+							<p class="inv-summ-date-btn">10/03/2017</p>
+							
+							<div class="porduct-detail-section-div">
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+                <!-- footer -->
+				<div class="col-sm-12 row footer">
+					<div class="col-sm-2 info">
+						<h4>INFO</h4>
+						<a href="#">Shops</a>
+						<a href="#">Delivery & Payments</a>
+						<a href="#">Guarantees</a>
+						<a href="#">Credit</a>
+						<a href="#">About Us</a>
+						<a href="#">Contact</a>
+						<a href="#" style="color: #d6395e">Sale</a>
+					</div>
+
+					<div class="col-sm-3 popular">
+						<h4>POPULAR</h4>
+						<a href="#">Mobile Phones</a>
+						<a href="#">Mobile Accessories</a>
+						<a href="#">Head Phones & Ear Phones</a>
+						<a href="#">Laptops</a>
+						<a href="#">Home Appliances</a>
+						<a href="#">Apple</a>
+				    </div>
+                    <!--contac information container-->
+					<div class="col-sm-4">
+						<h4>CONTACT US</h4>
+						<p>E mail: support@unitedeals.com</p>
+						<p>Telephone: +911147185874</p>
+						<p>Toll Free No.- 1800270011</p>
+					</div>
+
+					<div class="col-sm-3">
+						<h4>FOLLOW US</h4>
+						<p class="social">
+							<a href="#" class="facebook">fb</a> 
+							<a href="#" class="twitter">twitter</a> 
+							<a href="#" class="linkedin">in</a>
+						</p>
+
+						<div>
+							<p>OUR CHANNEL</p>
+							<p>Here you can find all about hot news from electronics world</p>
+							<p><a href="#" class="you-tube">you tube</a></p>
+						</div>
+
+					</div>
+					
+				</div>
+                <!-- payment mode -->
+				<div class="col-sm-12 paymentmode">
+					<p class="text-right">
+						<a class="visa" href="#"></a>
+						<a class="master-card" href="#"></a>
+						<a class="mestro" href="#"></a>
+						<a class="amerkan" href="#"></a>
+						<a class="dongo" href="#"></a>
+						<a class="discover" href="#"></a>
+						<a class="rupay" href="#"></a>
+						<a class="net-bank" href="#"></a>
+						<a class="cash-on-deli" href="#"></a>
+						<a class="easy-emi" href="#"></a>
+                    </p>
+				</div>
+			</div>
+			<!--a href="#"left bottom logo -->
+			<img class="logo-2" src="images/logo2.jpg">
+		</div>
+
+	</body>
+</html>

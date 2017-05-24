@@ -1,0 +1,290 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* set height of heider container*/
+.header{
+	height: 70px;
+}
+/* set logo image */
+.logo{
+	margin-top: 0;
+    width: 200px;
+    height: 80px;
+	text-indent: -9999px;
+	background: url(../images/logo.jpg) no-repeat;
+	background-size: 170px 70px;
+}
+/* style for search bar */
+.search-bar-form{
+	margin-top: 30px;
+}
+.search-bar{
+	padding:0 60px 0 40px;
+	background: url(../images/index.png) no-repeat 5px 5px;
+	background-size: 25px 25px;
+}
+.login-con{
+	text-align: right;
+	margin-top: 30px;
+}
+/* set login img */
+.login{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+	text-indent: -9999px;
+	background: url(../images/usericon.jpg) no-repeat -5px 0;
+
+}
+/* set alert img */
+.alert{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 0;
+	text-indent: -9999px;
+	background: url(../images/alerticon.jpg) no-repeat;
+}
+.inventory-con{
+	background: rgba(125,125,126,0.1);
+}
+.inventory-btn{
+	padding: 5px 30px;
+	margin: 5px;
+	background: rgba(125,125,125,0.6);
+}
+/* style for main middle container */
+.main-middle-section{
+	position: relative;
+	padding: 0;
+	background-color: rgba(125,125,126,0.2);
+}
+/* left nav container*/
+.left-con{
+	padding: 0;
+	/*background-color: rgba(125,125,126,0.1);*/
+}
+.left-con div{
+	border-top: 1px solid rgba(125,125,125,0.6);
+}
+.left-con div a{
+	padding: 10px 0 10px 70px;
+    border-bottom: 1px solid rgba(125,125,125,0.6);
+    display: block;
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+}
+.left-con div a:hover{
+	background-color: rgba(125,125,126,0.6);
+}
+/* style for left nav button */
+.contact, .products, .sales-order, .packaegs{
+    background: url(../images/addicon.jpg) no-repeat ;
+
+}
+.contact, .sales-order, .packaegs{
+	background-position: right -7px;
+}
+.products{
+	background-position: right -54px;
+}
+.right-con{
+	padding: 0;
+
+}
+/* graph container */
+.graph{
+	background-color: white;
+}
+/* style for inventory summry container */
+.inven-summry-con{
+	padding-left:20px;
+	margin: 0;
+}
+/* style for inventory summry container upper section */
+.inv-summ-btn, .inv-sales-btn{
+	background: white;
+	display: inline-block;
+	border: 1px solid rgba(125,125,126,0.6);
+	border-radius: 5px;
+	padding:5px 10px;
+	margin: 20px 0;
+}
+.inv-summ-detail{
+	border: 1px solid rgba(125,125,126,0.6);
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+.inv-summ-detail li{
+	padding: 20px;
+}
+.inven-summry-section{
+	border-right: 1px solid rgba(125,125,126,0.6);
+}
+.packed, .shipped, .delivered{
+	background: white;
+	text-align: center;
+	border: 1px solid rgba(125,125,126,0.6);
+	border-radius: 5px;
+}
+.packed p, .shipped p, .delivered p{
+	padding: 6px;
+}
+.shipped, .delivered {
+	margin-top: 72px;
+}
+.inv-summ-detail-btn {
+	background: white;
+	display: inline-block;
+	border: 1px solid rgba(125,125,126,0.6);
+	border-radius: 5px;
+	padding:5px 10px;
+}
+.inv-summ-date-btn-div{
+	display: inline-block;
+}
+.inv-summ-date-btn {
+	position: relative;
+	top: 10px;
+	left: 20px;
+    background: white;
+	display: inline-block;
+	border: 1px solid rgba(125,125,126,0.6);
+	border-radius: 5px;
+	padding:5px 10px;
+}
+.to{
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+/* style for product detail container and footer */
+.porduct-detail-con, .footer{
+	background-color: white;
+	padding:20px 0 0 20px;
+	margin: 0;
+}
+.porduct-detail-section{
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid rgba(125,125,126,0.6);
+	border-radius: 5px;
+	height: 300px;
+}
+.porduct-detail-section-div{
+	border-top: 1px solid rgba(125,125,126,0.6);
+	text-align: left;
+}
+.porduct-detail-section-div p {
+	padding: 10px;
+}
+.porduct-detail-section-div span{
+	float: right;
+}
+.info a, .popular a{
+	display: block;
+	color : #333;;
+	text-decoration: none;
+}
+.facebook{
+	background: url(../images/fb.png) no-repeat 0 0;
+}
+.twitter{
+    background: url(../images/twitter.jpg) no-repeat 0 0;
+}
+.linkedin{
+    background: url(../images/in.png) no-repeat 0 0;
+}
+.facebook, .twitter, .linkedin{
+	text-indent: -99999px;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background-size: 45px 45px;
+
+}
+.you-tube{
+	text-indent: -99999px;
+	display: inline-block;
+	background: url(../images/youtube.png) no-repeat -20px -20px;
+	width: 120px;
+	height: 50px;
+	background-size: 120px 80px;
+}
+.paymentmode{
+	background: white;
+}
+.visa, .master-card, .mestro, .amerkan, .dongo, .discover, .rupay, .net-bank, .cash-on-deli, .easy-emi{
+	background: url(../images/visaimg.jpg) no-repeat;
+}
+.visa{
+	display: inline-block;
+	height: 40px;
+	width: 45px;
+    background-position:  0px 0px;
+}
+.master-card{
+	display: inline-block;
+	height: 40px;
+	width: 45px;
+    background-position: -44px 0px;
+}
+.mestro{
+	display: inline-block;
+	height: 40px;
+	width: 45px;
+    background-position: -88px 0px;
+}
+.amerkan{
+	display: inline-block;
+	height: 40px;
+	width: 45px;
+    background-position: -130px 0px;
+}
+.dongo{
+	display: inline-block;
+	height: 40px;
+	width: 45px;
+    background-position: -176px 0px;
+}
+.discover{
+	display: inline-block;
+	height: 40px;
+	width: 43px;
+    background-position: -220px 0px;
+}
+.rupay{
+	display: inline-block;
+	height: 40px;
+	width: 42px;
+    background-position: -262px 0px;
+}
+.net-bank{
+	display: inline-block;
+	height: 40px;
+	width: 58px;
+    background-position: -305px 0px;
+}
+.cash-on-deli{
+	display: inline-block;
+	height: 40px;
+	width: 60px;
+    background-position: -365px 0px;
+}
+.easy-emi{
+	display: inline-block;
+	height: 40px;
+	width: 60px;
+    background-position: -426px 0px;
+}
+/* left bottom logo */
+.logo-2{
+	position: absolute;
+	bottom: 60px;
+	left: 70px;
+}
